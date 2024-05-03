@@ -1,3 +1,35 @@
 baseURL = 'https://example.org/'
+title = 'Sam LaGrave'
+theme = 'hugo-coder'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+defaultcontentlanguage = 'en-us'
+
+paginate = 20
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+author = "Sam LaGrave"
+info = "Programmer"
+description = "Sam LaGrave's personal website"
+avatarurl = "images/avatar.jpg"
+colorScheme = "auto"
+
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/SLaGrave/"
+
+[[params.social]]
+name = "Linkedin"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 1
+url = "https://www.linkedin.com/in/sam-lagrave-6350871b4/"
+
+[[params.social]]
+name = "Instagram"
+icon = "fa-brands fa-instagram fa-2x"
+weight = 1
+url = "https://www.instagram.com/samlagrave/"
